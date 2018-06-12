@@ -32,13 +32,21 @@ $ cp .env.example .env
 
 　
 
-### < 各種ライブラリのインストール >
+### < PHPの各ライブラリのインストール >
 composerにてライブラリを管理しています
 
 ```ｓｈ
-$ cd /home/vagrant/opt/www/www.example.com/
 $ docker exec -it php bash -c "cd /var/www/www.example.com && composer install"
 $ docker exec -it php bash -c "cd /var/www/www.example.com && php artisan key:generate"
+```
+
+　
+
+### < JavaScriptの各ライブラリのインストール >
+npmにてライブラリを管理しています
+
+```ｓｈ
+$ docker exec -it npm bash -c "cd /var/www/www.example.com && npm install"
 ```
 
 　
