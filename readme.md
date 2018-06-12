@@ -52,6 +52,24 @@ $ docker exec -it php bash -c "cd /var/www/www.example.com && php artisan key:ge
 
 　
 
+## 環境設定
+Laravelの.envファイルを修正します。
+
+※ File: ./www/www.example.com/.env
+
+```
+APP_URL=http://www.example.com
+
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=auth_db
+DB_USERNAME=hoge
+DB_PASSWORD=development
+```
+
+　
+
 ### passport
 認証関連でpassportをインストールする場合は、以下の作業を行う。
 参考サイト：https://qiita.com/niiyz/items/fffff94acb6061ecc9d4
