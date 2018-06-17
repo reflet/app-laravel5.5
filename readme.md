@@ -55,7 +55,7 @@ $ docker exec node bash -c "cd /var/www/www.example.com && npm install"
 下記ファイルに記載のクエリなどを参考にDBを作成する。
 
 ```
-/home/vagrant/opt/www/www.example.com/sql/auth_db.sql
+/home/vagrant/opt/www/www.example.com/sql/example.sql
 ```
 
 　

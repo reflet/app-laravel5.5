@@ -1,0 +1,12 @@
+-- データベース作成
+CREATE DATABASE `example`;
+
+-- DB選択
+USE `example`;
+
+-- ユーザー作成
+CREATE USER `hoge` IDENTIFIED BY 'development';
+
+-- 権限追加
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE ON `example`.* TO `hoge` identified by 'development';
+
