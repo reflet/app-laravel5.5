@@ -36,8 +36,8 @@ $ cp .env.example .env
 composerにてライブラリを管理しています
 
 ```ｓｈ
-$ docker exec -it php bash -c "cd /var/www/www.example.com && composer install"
-$ docker exec -it php bash -c "cd /var/www/www.example.com && php artisan key:generate"
+$ docker exec php bash -c "cd /var/www/www.example.com && composer install"
+$ docker exec php bash -c "cd /var/www/www.example.com && php artisan key:generate"
 ```
 
 　
