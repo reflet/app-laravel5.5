@@ -71,7 +71,7 @@ APP_URL=http://www.example.com
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=auth_db
+DB_DATABASE=example
 DB_USERNAME=hoge
 DB_PASSWORD=development
 ```
