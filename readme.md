@@ -46,7 +46,7 @@ $ docker exec php bash -c "cd /var/www/www.example.com && php artisan key:genera
 npmにてライブラリを管理しています
 
 ```ｓｈ
-$ docker exec -it npm bash -c "cd /var/www/www.example.com && npm install"
+$ docker exec node bash -c "cd /var/www/www.example.com && npm install"
 ```
 
 　
